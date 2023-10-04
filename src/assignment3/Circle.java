@@ -36,7 +36,7 @@ public class Circle {
 		Circle defaultCircleObj = new Circle();
 		System.out.println("Area: "+defaultCircleObj.getArea());
 		
-		System.out.println("\n");
+		System.out.println();
 		
 		// Create a circle with user defined value
 		// This will call parameterized constructor and getArea method
@@ -45,3 +45,13 @@ public class Circle {
 	}
 
 }
+
+// 		OUTPUT
+
+//		Radius: 1.0
+//		Color: red
+//		Area: 3.141592653589793
+//	
+//		Radius: 2.0
+//		Color: blue
+//		12.566370614359172

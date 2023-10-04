@@ -1,19 +1,27 @@
 class Demo {
 
-	public static void main(String args[ ]) {
+public static void main(String args[]) {
 
-		if(args.length == 0||!args[0].equalsIgnoreCase("niraj")) {
-		
-		System.out.println ("not any name");
-		
-		}
-	
-		else {
-	
-		System.out.println (args[0]+ " is my name");
-			
-		}
+int x, y, k; y=3;
 
-	}
+label:
+
+for (x = 0; x < y; x++) {
+
+for (k = 0; k < 2; k++) {
+
+if (x == k) {
+
+continue label;
+
+}
+
+System.out.println(x + " and " + k);
+
+}
+
+}
+
+}
 
 }

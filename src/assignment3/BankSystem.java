@@ -56,16 +56,16 @@ public class BankSystem {
 }
 
 
-/*  OUTPUT*/
+// 		OUTPUT
 
-//	Enter amount to deposit: 
-//	1000
-//	Total amount after deposit:
-//	11000.0
-//
-//
-//	Enter amount to withdraw: 
-//	2000
-//	Total amount after withdrawn:
-//	9000.0
+//		Enter amount to deposit: 
+//		1000
+//		Total amount after deposit:
+//		11000.0
+//	
+//	
+//		Enter amount to withdraw: 
+//		2000
+//		Total amount after withdrawn:
+//		9000.0
 

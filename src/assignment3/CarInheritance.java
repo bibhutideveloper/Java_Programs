@@ -9,9 +9,9 @@ class Car{
 	}
 }
 
-// Using Car class method in Mahindra class using Inheritance
+// Using Car class method in MAHINDRA class using Inheritance
 class Mahindra extends Car {
-	// Method of Mahindra class
+	// Method of MAHINDRA class
 	void displayModel() {
 		System.out.println("MAHINDRA XUV400");
 	}
@@ -20,14 +20,19 @@ class Mahindra extends Car {
 public class CarInheritance {
 
 	public static void main(String[] args) {
-		// Creating object for Mahindra class
+		// Creating object for MAHINDRA class
 		Mahindra mahindraCar = new Mahindra();
 		
 		// Calling car class method
 		mahindraCar.startEngine();
 		
-		// calling Mahindra class method
+		// calling MAHINDRA class method
 		mahindraCar.displayModel();
 	}
 
 }
+
+//		OUTPUT
+
+//		Car engine started.
+//		MAHINDRA XUV400
