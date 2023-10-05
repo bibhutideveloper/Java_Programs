@@ -10,7 +10,8 @@ public class HashMapTask {
 		name.put("a","Bibhuti");
 		name.put("b","Akash");
 		name.put("c","Ramesh");
-		name.put("d","Suraj");		
+		name.put("d","Suraj");
+		name.put("e","Kajal");	
 		System.out.println(name);
 		
 //		2. Write a Java program to get the value of a specified key in a map.
