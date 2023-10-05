@@ -1,5 +1,6 @@
 package linkedListJava;
 import java.util.LinkedList;
+import java.util.Collections;
 
 public class LinkedListTask {
 
@@ -21,7 +22,11 @@ public class LinkedListTask {
 		}
 		
 		// 3. Write a Java program to iterate a linked list in reverse order.
-		
+		Collections.reverse(number);
+		System.out.println("Reverse:");
+		for(int i:number) {
+			System.out.println(i);
+		}
 		
 		//4. Write a Java program to insert the specified element at the specified position in the linked list.
 		number.add(2, 90);
