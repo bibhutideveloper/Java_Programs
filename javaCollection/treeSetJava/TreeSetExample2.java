@@ -17,12 +17,19 @@ public class TreeSetExample2 {
 		System.out.println(t);
 		
 		// Higher element
-		System.out.println("Higher: "+t.higher(45));
-		System.out.println("Higher: "+t.higher(90));
+		System.out.println("Higher(): "+t.higher(45));
+		System.out.println("Higher(): "+t.higher(90));
 		
-		// Higher element
-		System.out.println("Lower: "+t.lower(45));
-		System.out.println("Lower: "+t.lower(9));
+		// Lower element
+		System.out.println("Lower(): "+t.lower(45));
+		System.out.println("Lower(): "+t.lower(9));
+		
+		// Higher and lower returns multiple values
+		// it set a limit
+		System.out.println("headSet(): "+t.headSet(45));
+		System.out.println("headSet(): "+t.headSet(45,true));
+		System.out.println("tailSet(): "+t.tailSet(45));
+		System.out.println("tailSet(): "+t.tailSet(45,false));
 	}
 
 }
