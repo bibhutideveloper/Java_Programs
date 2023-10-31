@@ -3,7 +3,7 @@ package exceptionHandling;
 public class ExceptionThrow {
 
 	public static void main(String[] args) {
-		int age = 98;
+		int age = 8;
 		if(age<18) {
 			try {
 				throw new ArithmeticException("Not Eligible");
